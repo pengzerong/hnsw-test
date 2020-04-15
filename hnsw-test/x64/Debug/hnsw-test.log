@@ -1,0 +1,32 @@
+﻿  hnsw-test.cpp
+d:\documents\visual studio 2017\projects\hnsw-test\opencv3.1.0_with_contrib\opencv\build\include\opencv2\core\mat.hpp(1964): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\documents\visual studio 2017\projects\hnsw-test\opencv3.1.0_with_contrib\opencv\build\include\opencv2\core\persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\documents\visual studio 2017\projects\hnsw-test\opencv3.1.0_with_contrib\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\documents\visual studio 2017\projects\hnsw-test\opencv3.1.0_with_contrib\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\documents\visual studio 2017\projects\hnsw-test\include\hnswlib\space_ip.h(30): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+d:\documents\visual studio 2017\projects\hnsw-test\hnsw-test\hnsw-test.cpp(51): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+d:\documents\visual studio 2017\projects\hnsw-test\include\hnswlib\hnswalg.h(638): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  d:\documents\visual studio 2017\projects\hnsw-test\include\hnswlib\hnswalg.h(616): note: 编译 类 模板 成员函数 "void hnswlib::HierarchicalNSW<float>::saveIndex(const std::string &)" 时
+  d:\documents\visual studio 2017\projects\hnsw-test\hnsw-test\hnsw-test.cpp(44): note: 参见对正在编译的 类 模板 实例化 "hnswlib::HierarchicalNSW<float>" 的引用
+d:\documents\visual studio 2017\projects\hnsw-test\include\hnswlib\hnswalg.h(44): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  d:\documents\visual studio 2017\projects\hnsw-test\include\hnswlib\hnswalg.h(30): note: 编译 类 模板 成员函数 "hnswlib::HierarchicalNSW<float>::HierarchicalNSW(hnswlib::SpaceInterface<float> *,size_t,size_t,size_t,size_t)" 时
+  d:\documents\visual studio 2017\projects\hnsw-test\hnsw-test\hnsw-test.cpp(44): note: 参见对正在编译的函数 模板 实例化“hnswlib::HierarchicalNSW<float>::HierarchicalNSW(hnswlib::SpaceInterface<float> *,size_t,size_t,size_t,size_t)”的引用
+d:\documents\visual studio 2017\projects\hnsw-test\include\hnswlib\hnswalg.h(59): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+d:\documents\visual studio 2017\projects\hnsw-test\include\hnswlib\hnswalg.h(856): warning C4267: “=”: 从“size_t”转换到“hnswlib::tableint”，可能丢失数据
+  d:\documents\visual studio 2017\projects\hnsw-test\include\hnswlib\hnswalg.h(846): note: 编译 类 模板 成员函数 "hnswlib::tableint hnswlib::HierarchicalNSW<float>::addPoint(const void *,hnswlib::labeltype,int)" 时
+  d:\documents\visual studio 2017\projects\hnsw-test\include\hnswlib\hnswalg.h(843): note: 参见对正在编译的函数 模板 实例化“hnswlib::tableint hnswlib::HierarchicalNSW<float>::addPoint(const void *,hnswlib::labeltype,int)”的引用
+d:\documents\visual studio 2017\projects\hnsw-test\include\hnswlib\hnswalg.h(449): warning C4267: “参数”: 从“size_t”转换到“unsigned short”，可能丢失数据
+  d:\documents\visual studio 2017\projects\hnsw-test\include\hnswlib\hnswalg.h(425): note: 编译 类 模板 成员函数 "void hnswlib::HierarchicalNSW<float>::mutuallyConnectNewElement(const void *,hnswlib::tableint,std::priority_queue<std::pair<dist_t,hnswlib::tableint>,std::vector<std::pair<dist_t,hnswlib::tableint>,std::allocator<_Ty>>,hnswlib::HierarchicalNSW<dist_t>::CompareByFirst>,int)" 时
+          with
+          [
+              dist_t=float,
+              _Ty=std::pair<float,hnswlib::tableint>
+          ]
+  d:\documents\visual studio 2017\projects\hnsw-test\include\hnswlib\hnswalg.h(943): note: 参见对正在编译的函数 模板 实例化“void hnswlib::HierarchicalNSW<float>::mutuallyConnectNewElement(const void *,hnswlib::tableint,std::priority_queue<std::pair<dist_t,hnswlib::tableint>,std::vector<std::pair<dist_t,hnswlib::tableint>,std::allocator<_Ty>>,hnswlib::HierarchicalNSW<dist_t>::CompareByFirst>,int)”的引用
+          with
+          [
+              dist_t=float,
+              _Ty=std::pair<float,hnswlib::tableint>
+          ]
+d:\documents\visual studio 2017\projects\hnsw-test\include\hnswlib\hnswalg.h(486): warning C4267: “参数”: 从“size_t”转换到“unsigned short”，可能丢失数据
+  hnsw-test.vcxproj -> D:\Documents\Visual Studio 2017\Projects\hnsw-test\x64\Debug\hnsw-test.exe
